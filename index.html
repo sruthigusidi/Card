@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Project</title>
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+   <div id="wrapper">
+    <!-- form div -->
+    <div class="form-container">
+      <form action="">
+        <div>
+          <label for="fname">First Name :</label>
+          <input type="text" id="fname" placeholder="Enter your first name here" />
+      </div>
+  
+        <div>
+          <label for="lname">Last Name :</label>
+          <input type="text" id="lname" placeholder="Enter your last name here" />
+      </div>
+  
+      <div>
+          <label for="country">Country :</label>
+          <input type="text" id="country" placeholder="Enter your country name here" />
+      </div>
+  
+      <div>
+          <label for="phone">Phone no. :</label>
+          <input type="text" id="phone" placeholder="Enter your Phone no. here" />
+      </div>
+  
+      <div>
+          <label for="state">State :</label>
+          <input type="text" id="state" placeholder="Enter your State here" />
+      </div>
+  
+      <div>
+          <label for="city">City :</label>
+          <input type="text" id="city" placeholder="Enter your City name here" />
+      </div>
+  
+      <div>
+          <label for="village">Village :</label>
+          <input type="text" id="village" placeholder="Enter your Village name here" />
+      </div>
+
+      
+      <button type="submit">Submit</button>
+      </form>
+    </div>
+    <!-- card div -->
+     <div data-aos="fade-right" class="card-container"></div>
+   </div>
+   <!-- AOS -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+  </script>
+    
+<script src="script.js"></script>
+  </body>
+</html>
